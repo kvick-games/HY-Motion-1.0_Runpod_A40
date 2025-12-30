@@ -839,7 +839,7 @@ def create_demo(final_model_path):
         output_dir = "output/gradio"
         prompt_engineering_host = os.environ.get("PROMPT_HOST", None)
         prompt_engineering_model_path = os.environ.get("PROMPT_MODEL_PATH", None)
-        disable_prompt_engineering = os.environ.get("DISABLE_PROMPT_ENGINEERING", False)
+        disable_prompt_engineering = os.environ.get("DISABLE_PROMPT_ENGINEERING", "").lower() in ("1", "true", "yes")
 
     args = Args()
     _global_args = args  # Set global args for lazy loading
@@ -910,4 +910,4 @@ if __name__ == "__main__":
     # Create demo at module level for Hugging Face Spaces
     final_model_path = try_to_download_model()
     demo = create_demo(final_model_path)
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=True)
