@@ -28,7 +28,7 @@
 
 
 <p align="center">
-  <img src="./assets/teaser.png" alt="Teaser" width="90%">
+  <img src="./assets/teaser.jpg" alt="Teaser" width="90%">
 </p>
 
 
@@ -66,7 +66,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/sotacomp.png" alt="ComparisonSoTA" width="100%">
+  <img src="./assets/sotacomp.jpg" alt="ComparisonSoTA" width="100%">
 </p>
 
 
