@@ -9,6 +9,9 @@
   <a href="https://hunyuan.tencent.com/motion" target="_blank">
     <img src="https://img.shields.io/badge/Official%20Site-333399.svg?logo=homepage" height="22px" alt="Official Site">
   </a>
+  <a href="https://github.com/Tencent-Hunyuan/HY-Motion-1.0" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white" height="22px" alt="Github Repo">
+  </a>
   <a href="https://huggingface.co/spaces/tencent/HY-Motion-1.0" target="_blank">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Demo-276cb4.svg" height="22px" alt="HuggingFace Space">
   </a>
